@@ -1,1 +1,79 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema de Gestão</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 20px;
+            color: #1e293b;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        .painel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #00000012;
+        }
+
+        .numero {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2563eb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Gestão</h1>
+        <p>Painel administrativo</p>
+    </header>
+
+    <main class="painel">
+
+        <section class="card">
+            <h2>Equipamentos</h2>
+            <p class="numero">0</p>
+            <p>Dispositivos cadastrados</p>
+        </section>
+
+        <section class="card">
+            <h2>Tarefas</h2>
+            <p class="numero">0</p>
+            <p>Atividades registradas</p>
+        </section>
+
+        <section class="card">
+            <h2>Relatórios</h2>
+            <p class="numero">0</p>
+            <p>Relatórios disponíveis</p>
+        </section>
+
+    </main>
+
+</body>
+</html>
+
